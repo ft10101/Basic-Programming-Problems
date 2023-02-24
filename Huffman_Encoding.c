@@ -97,8 +97,7 @@ struct MinHeapNode* extractMin(struct MinHeap* minHeap){
 
 	struct MinHeapNode* temp = minHeap->array[0];
 	minHeap->array[0] = minHeap->array[minHeap->size - 1];
-
-	--minHeap->size;
+	--minHeap->size;  
 	minHeapify(minHeap, 0);
 
 	return temp;
