@@ -3,7 +3,6 @@ void tri_area(int, int);
 
 int main(){
 int base,height;
-
 printf("Enter the base and height of triangle: \n");
 scanf("%d%d",&base,&height);
 
