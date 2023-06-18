@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 void sum();
 void mul();
 void sub();
