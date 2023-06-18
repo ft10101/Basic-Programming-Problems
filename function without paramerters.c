@@ -15,6 +15,7 @@ void main(){
     sub();
     div();
 }
+
 //Addition
 void sum()
 {
@@ -23,6 +24,7 @@ void sum()
     sum=a+b;
     printf("%d is the sum of two numbers\n\n",sum);
 }
+
 //Multiplication
 void mul()
 {
@@ -31,6 +33,7 @@ void mul()
     mul=a*b;
     printf("%d is the multiplication of two numbers\n\n",mul);
 }
+
 //Subtraction
 void sub()
 {
@@ -39,6 +42,7 @@ void sub()
     sub=a-b;
     printf("%d is the Subtraction of two numbers\n\n",sub);
 }
+
 //Division
 void div()
 {
